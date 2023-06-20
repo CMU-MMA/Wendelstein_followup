@@ -1,0 +1,6 @@
+conda create -y --name env4wst python=3.7
+
+$ conda activate env4wst
+(env4wst) $ pip install sfft=1.4.1
+(env4wst) $ pip install scipy photutils
+(env4wst) $ pip install --no-deps sep
